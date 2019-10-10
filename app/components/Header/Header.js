@@ -7,15 +7,13 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
   render() {
     return (
       <div className="header">
-        <a href="https://twitter.com/flexdinesh">
-          <img src={Banner} alt="react-redux-boilerplate - Logo" />
-        </a>
+        <img src="https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/oiy5csn7atuxfrntyfpc.jpg"/>
         <div className="nav-bar">
           <Link className="router-link" to="/">
-            Home
+            Why did I do this?
           </Link>
-          <Link className="router-link" to="/features">
-            Features
+          <Link className="router-link" to="https://www.urbandictionary.com/define.php?term=Goose">
+            What is a goose?
           </Link>
         </div>
       </div>

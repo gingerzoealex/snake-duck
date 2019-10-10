@@ -15,7 +15,13 @@ import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
+import Honker from 'components/Honker';
 import './style.scss';
+import honkify from 'honkify';
+// The goose is loose!
+const unregister = honkify();
+// Disable so links work again
+unregister();
 
 const App = () => (
   <div className="app-wrapper">
@@ -26,6 +32,7 @@ const App = () => (
       <meta name="description" content="A React.js Boilerplate application" />
     </Helmet>
     <Header />
+  <Honker />
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route path="/features" component={FeaturePage} />
