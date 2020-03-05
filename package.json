@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
+    "acorn": "^7.1.0",
     "chalk": "^2.4.2",
     "compression": "1.7.4",
     "connected-react-router": "^6.4.0",
@@ -35,6 +36,7 @@
     "fontfaceobserver": "2.1.0",
     "history": "4.9.0",
     "hoist-non-react-statics": "3.3.0",
+    "honkify": "^0.2.0",
     "invariant": "2.2.4",
     "ip": "1.1.5",
     "lodash": ">=4.17.11",
@@ -77,7 +79,6 @@
     "css-loader": "3.0.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "eslint": ">=5.16.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-import-resolver-webpack": "0.11.1",
